@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+
+
+.inputs{
+	width: 65%;
+	margin: 0 auto;
+	padding: 5px;
+	border: none;
+	margin-bottom: 10px;
+	border-radius: 10px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: -15px;
+}
+
+.input2{
+	width: 65%;
+	margin: 0 auto;
+	padding: 5px;
+	border: none;
+	margin-bottom: 10px;
+	border-radius: 10px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+
+.input3{
+	width: 65%;
+	margin: 0 auto;
+	padding: 5px;
+	border: none;
+	margin-bottom: 10px;
+	border-radius: 10px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 25px;
+}
+
+.container{
+    padding: 50px;
+    height:170px;
+    width: 130px;
+    background-color:  #3366ff;
+    text-align: center;
+    margin-top: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white; 
+    margin: 200px 600px;
+    border-radius: 20px;
+    border-width: 7px;
+    border-style: solid;
+    border-color: #ffff00; 
+}
+
+.btn{
+          background-color:white;
+          padding: 10px;
+          width: 77px;
+          height: 40px;
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: 15px;
+          border-radius: 15px;
+          -webkit-transition-duration: 0.4s; /* Safari */
+          transition-duration: 0.4s;
+          color: black;
+          border: solid 2px;
+          border-color: #ffff00;
+          margin-top: -60px;
+      }
+
+      .btn:hover {
+    background-color: #ffff00; /* Green */
+    color: blue;
+    border-color: darkblue;
+}
+
+.title{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffff00;
+    margin-top: -40px;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h4 class="title">Área do Trapézio</h4>
+        <form action="calculoAreaTrapezio.js">
+            <input type="nome" class="inputs" name="basemenor" size="12" maxlength="150" placeholder="Base menor"><br><br>
+            <input type="text" class="input2" autocomplete="off" maxlength="14" name="basemaior" size="12" 
+            placeholder="Base maior"><br>
+            <input type="text" class="input3" autocomplete="off" maxlength="14" name="altura" size="12" 
+            placeholder="Altura">
+            <br>
+            <input class="btn" type="submit"  name="caltrap" value="Calcular">
+        </form>
+    </div>
+</body>
+</html>
