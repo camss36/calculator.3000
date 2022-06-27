@@ -1,0 +1,138 @@
+header{
+    padding: 30px;    
+    }
+
+    img{
+        width: 200px;
+        margin-left: 600px;
+    }
+
+    .p2{
+    background-color: blueviolet;
+    color: white;
+    font-size:20px;
+    padding: 20px;
+    font-family:Verdana;
+    }
+
+    .button1{
+    color:white;
+    font-size: 20px;
+    font-family:"Verdana";
+    background-color:blueviolet;
+    border: none;
+    text-align: center;
+    margin-left: 500px;
+    }
+
+    .button1 span {
+    position: relative;
+    transition: 0.5s;
+    }
+
+    .button1 span:after {
+        content: "\00bb";
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: -20px;
+        transition: 0.5s;
+      }
+ 
+    .button1:hover span {
+        padding-right: 25px;
+    }
+ 
+    .button1:hover span:after {
+        opacity: 1;
+        right: 0;
+    }
+
+    .button1:hover {
+            background-color:black;
+            color:white;
+    }
+
+    .button2{
+    color:white;
+    font-size: 20px;
+    font-family:"Verdana";
+    background-color:blueviolet;
+    border: none;
+    text-align: center;
+    margin-left: 90px;
+    }
+
+    .button2 span {
+    position: relative;
+    transition: 0.5s;
+    }
+
+    .button2 span:after {
+        content: "\00bb";
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: -20px;
+        transition: 0.5s;
+      }
+ 
+    .button2:hover span {
+        padding-right: 25px;
+    }
+ 
+    .button2:hover span:after {
+        opacity: 1;
+        right: 0;
+    }
+
+    .button2:hover {
+            background-color:black;
+            color:white;
+    }
+
+    .button3{
+    color:white;
+    font-size: 20px;
+    font-family:"Verdana";
+    background-color:blueviolet;
+    border: none;
+    text-align: center;
+    margin-left: 100px;
+    }
+
+    .button3 span {
+    position: relative;
+    transition: 0.5s;
+    }
+
+    .button3 span:after {
+        content: "\00bb";
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: -20px;
+        transition: 0.5s;
+      }
+ 
+    .button3:hover span {
+        padding-right: 25px;
+    }
+ 
+    .button3:hover span:after {
+        opacity: 1;
+        right: 0;
+    }
+
+    .button3:hover {
+            background-color:black;
+            color:white;
+    }
+
+    a{
+    color: white;
+    text-decoration: none;
+}
+*{
+    margin: 0;
+}
