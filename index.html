@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="box.css">
     <title>Document</title>
 
 </head>
@@ -19,5 +20,59 @@
         <button class="button2"><a href="Sobre.html"><span><b>Regra de 3</b></span></a></button>
         <button class="button3"><a href="Contatos.html"><span><b>m²</b></a></span></button>
     </p>
+
+    <div class="container">
+        <h4 class="title">IMC</h4>
+        <form action="calculoIMC.js">
+            <input type="nome" class="inputs" name="altura" size="12" maxlength="150" placeholder="Altura"><br><br>
+            <input type="text" class="input2" autocomplete="off" maxlength="14" name="peso" size="12" 
+            placeholder="Peso">
+            <br>
+            <input class="btn" type="submit"  name="calimc" value="Calcular">
+        </form>
+    </div>
+
+    <div class="container">
+        <h4 class="title">Área do Triângulo Equilátero</h4>
+        <form action="calculoAreaTriEquilatero">
+            <input type="nome" class="inputs" name="lado" size="12" maxlength="150" placeholder="Lado"><br><br>
+            <br>
+            <input class="btn" type="submit"  name="calequi" value="Calcular">
+        </form>
+    </div>
+
+    <div class="container">
+        <h4 class="title">Área do Trapézio</h4>
+        <form action="calculoAreaTrapezio.js">
+            <input type="nome" class="inputs" name="basemenor" size="12" maxlength="150" placeholder="Base menor"><br><br>
+            <input type="text" class="input2" autocomplete="off" maxlength="14" name="basemaior" size="12" 
+            placeholder="Base maior"><br>
+            <input type="text" class="input3" autocomplete="off" maxlength="14" name="altura" size="12" 
+            placeholder="Altura">
+            <br>
+            <input class="btn" type="submit"  name="caltrap" value="Calcular">
+        </form>
+    </div>
+
+    <div class="container">
+        <h4 class="title">Área do Retângulo</h4>
+        <form action="calculoAreaRetangulo.js">
+            <input type="nome" class="inputs" name="base" size="12" maxlength="150" placeholder="Base"><br><br>
+            <input type="text" class="input2" autocomplete="off" maxlength="14" name="altura" size="12" 
+            placeholder="Altura">
+            <br>
+            <input class="btn" type="submit"  name="calaret" value="Calcular">
+        </form>
+    </div>
+
+    <div class="container">
+        <h4 class="title">Área do Quadrado</h4>
+        <form action="calculoAreaQuadrado.js">
+            <input type="nome" class="inputs" name="lado" size="12" maxlength="150" placeholder="Lado"><br><br>
+            <br>
+            <input class="btn" type="submit"  name="calarea" value="Calcular">
+        </form>
+    </div>
+
 </body>
 </html>
