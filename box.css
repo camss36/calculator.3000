@@ -5,6 +5,7 @@
     border: none;
     margin-bottom: 10px;
     border-radius: 10px;
+    margin-top: 20px;
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -18,7 +19,96 @@
     border-radius: 10px;
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 55px;
+}
+
+.input3 {
+    width: 35%;
+    margin: 0 auto;
+    padding: 5px;
+    border: none;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 15px;
+}
+
+.input4 {
+    width: 65%;
+    margin: 0 auto;
+    padding: 5px;
+    border: none;
+    margin-bottom: 100px;
+    margin-top: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: -15px;
+}
+
+.input5 {
+    width: 65%;
+    margin: 0 auto;
+    padding: 5px;
+    border: none;
+    margin-bottom: 80px;
+    border-radius: 10px;
+    margin-top: -80px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 15px;
+}
+
+.input6 {
+    width: 65%;
+    margin: 0 auto;
+    padding: 5px;
+    border: none;
+    margin-bottom: 100px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 25px;
+}
+
+.input7 {
+    width: 35%;
+    margin: 0 auto;
+    padding: 5px;
+    border: none;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 5px;
+}
+
+.input8 {
+    width: 35%;
+    margin: 0 auto;
+    padding: 5px;
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 35px;
+}
+
+.input9 {
+    width: 35%;
+    margin: 0 auto;
+    padding: 5px;
+    border: none;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 5px;
 }
 
 .container {
