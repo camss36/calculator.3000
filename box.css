@@ -1,5 +1,5 @@
-.inputs {
-    width: 35%;
+.input1 {
+    width: 85%;
     margin: 0 auto;
     padding: 5px;
     border: none;
@@ -10,7 +10,171 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.container {
+.input2 {
+    width: 85%;
+    margin: 0 auto;
+    padding: 5px;
+    border: none;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    margin-top: -20px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.input3 {
+    width: 45%;
+    margin: 0 auto;
+    padding: 5px;
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.input4 {
+    width: 85%;
+    margin: 0 auto;
+    padding: 5px;
+    border: none;
+    margin-bottom: -10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.input5 {
+    width: 85%;
+    margin: 0 auto;
+    padding: 5px;
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    margin-top: -20px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.input6 {
+    width: 85%;
+    margin: 0 auto;
+    padding: 5px;
+    border: none;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.input7 {
+    width: 85%;
+    margin: 0 auto;
+    padding: 5px;
+    border: none;
+    margin-bottom: -10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.input8 {
+    width: 85%;
+    margin: 0 auto;
+    padding: 5px;
+    border: none;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    margin-top: -40px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.input9 {
+    width: 85%;
+    margin: 0 auto;
+    padding: 5px;
+    border: none;
+    margin-bottom: -10px;
+    border-radius: 10px;
+    margin-top: 15px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container_IMC {
+    padding: 50px;
+    height: 210px;
+    width: 130px;
+    background-color: #3366ff;
+    text-align: center;
+    margin-top: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+    margin: 200px 600px;
+    border-radius: 20px;
+    border-width: 7px;
+    border-style: solid;
+    border-color: #ffff00;
+}
+
+.container_triequi {
+    padding: 50px;
+    height: 180px;
+    width: 130px;
+    background-color: #3366ff;
+    text-align: center;
+    margin-top: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+    margin: 200px 600px;
+    border-radius: 20px;
+    border-width: 7px;
+    border-style: solid;
+    border-color: #ffff00;
+}
+
+.container_trapezio {
+    padding: 50px;
+    height: 200px;
+    width: 130px;
+    background-color: #3366ff;
+    text-align: center;
+    margin-top: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+    margin: 200px 600px;
+    border-radius: 20px;
+    border-width: 7px;
+    border-style: solid;
+    border-color: #ffff00;
+}
+
+.container_retangulo {
+    padding: 50px;
+    height: 200px;
+    width: 130px;
+    background-color: #3366ff;
+    text-align: center;
+    margin-top: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+    margin: 200px 600px;
+    border-radius: 20px;
+    border-width: 7px;
+    border-style: solid;
+    border-color: #ffff00;
+}
+
+.container_quadrado {
     padding: 50px;
     height: 150px;
     width: 130px;
