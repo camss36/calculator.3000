@@ -22,7 +22,7 @@ img {
     background-color: blueviolet;
     border: none;
     text-align: center;
-    margin-left: 500px;
+    margin-left: 10px;
 }
 
 .button1 span {
@@ -60,7 +60,7 @@ img {
     background-color: blueviolet;
     border: none;
     text-align: center;
-    margin-left: 90px;
+    margin-left: 100px;
 }
 
 .button2 span {
@@ -125,6 +125,120 @@ img {
 }
 
 .button3:hover {
+    background-color: black;
+    color: white;
+}
+
+.button4 {
+    color: white;
+    font-size: 20px;
+    font-family: "Verdana";
+    background-color: blueviolet;
+    border: none;
+    text-align: center;
+    margin-left: 100px;
+}
+
+.button4 span {
+    position: relative;
+    transition: 0.5s;
+}
+
+.button4 span:after {
+    content: "\00bb";
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button4:hover span {
+    padding-right: 25px;
+}
+
+.button4:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.button4:hover {
+    background-color: black;
+    color: white;
+}
+
+.button5 {
+    color: white;
+    font-size: 20px;
+    font-family: "Verdana";
+    background-color: blueviolet;
+    border: none;
+    text-align: center;
+    margin-left: 120px;
+}
+
+.button5 span {
+    position: relative;
+    transition: 0.5s;
+}
+
+.button5 span:after {
+    content: "\00bb";
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button5:hover span {
+    padding-right: 25px;
+}
+
+.button5:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.button6:hover {
+    background-color: black;
+    color: white;
+}
+
+.button6 {
+    color: white;
+    font-size: 20px;
+    font-family: "Verdana";
+    background-color: blueviolet;
+    border: none;
+    text-align: center;
+    margin-left: 110px;
+}
+
+.button6 span {
+    position: relative;
+    transition: 0.5s;
+}
+
+.button6 span:after {
+    content: "\00bb";
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button6:hover span {
+    padding-right: 25px;
+}
+
+.button6:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.button6:hover {
     background-color: black;
     color: white;
 }
