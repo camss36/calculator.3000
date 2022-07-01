@@ -1,7 +1,7 @@
 function areatrapezio() {
-    var basemaior = document.getElementById("id do input").value
-    var basemenor = document.getElementById("id do input").value
-    var alturatrap = document.getElementById("id do input").value
+    var basemaior = document.getElementById("atmaior").value
+    var basemenor = document.getElementById("atmenor").value
+    var alturatrap = document.getElementById("alturatrap").value
 
     var caltrap = (basemaior + basemenor) ** alturatrap/2
 

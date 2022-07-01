@@ -1,8 +1,8 @@
 function arearetangulo() {
-    var baseret = document.getElementById("id do input").value
-    var alturaret = document.getElementById("id do input").value
+    var baseret = document.getElementById("arbase").value
+    var alturaret = document.getElementById("araltura").value
 
     var calret = baseret ** alturaret;
 
-    nomedadiv.innerHTML= `${calret} o que quer que apareça na tela`
+    texto4.innerHTML= `${calret} o que quer que apareça na tela`
 }

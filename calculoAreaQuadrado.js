@@ -1,7 +1,7 @@
 function areaquadrado() {
-    var lado1 = document.getElementById("id do input").value
+    var lado1 = document.getElementById("lado").value
 
     var calarea = lado1 ** lado1;
 
-    nomedadiv.innerHTML= ` ${calarea} o quer que apareça`
+    texto5.innerHTML= ` ${calarea} o quer que apareça`
 }
