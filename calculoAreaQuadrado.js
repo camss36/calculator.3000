@@ -3,5 +3,6 @@ function areaquadrado() {
 
     var calarea = lado1 ** lado1;
 
-    texto5.innerHTML= ` ${calarea} o quer que apareça`
+    document.getElementById('texto5').innerHTML = calarea
+
 }
