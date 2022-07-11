@@ -116,7 +116,7 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     color: white;
-    margin: 200px 600px;
+    margin: 10% 45%;
     border-radius: 20px;
     border-width: 7px;
     border-style: solid;
@@ -133,7 +133,7 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     color: white;
-    margin: 200px 600px;
+    margin: 10% 45%;
     border-radius: 20px;
     border-width: 7px;
     border-style: solid;
@@ -150,7 +150,7 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     color: white;
-    margin: 200px 600px;
+    margin: 10% 45%;
     border-radius: 20px;
     border-width: 7px;
     border-style: solid;
@@ -167,7 +167,7 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     color: white;
-    margin: 200px 600px;
+    margin: 10% 45%;
     border-radius: 20px;
     border-width: 7px;
     border-style: solid;
@@ -184,7 +184,7 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     color: white;
-    margin: 200px 600px;
+    margin: 10% 45%;
     border-radius: 20px;
     border-width: 7px;
     border-style: solid;
@@ -220,4 +220,24 @@
     font-family: Arial, Helvetica, sans-serif;
     color: #ffff00;
     margin-top: -40px;
+}
+
+#containerIMC{
+    display: none;
+}
+
+#containertriequi{
+    display: none;
+}
+
+#containertrapezio{
+    display: none;
+}
+
+#containerretangulo{
+    display: none;
+}
+
+#containerquadrado{
+    display: none;
 }

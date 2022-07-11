@@ -12,6 +12,7 @@
     <script src="calculoAreaRetangulo.js"></script>
     <script src="calculoAreaQuadrado.js"></script>
     <script src="calculadora.js"></script>
+    <script src="openclose.jss"></script>
     <title>Document</title>
 
 </head>
@@ -22,16 +23,16 @@
      </header>
 
     <p class="p2">
-        <button class="button1"><a href="Outros.html"><span><b>IMC</b></span></a></button>
-        <button class="button2"><a href="Sobre.html"><span><b>Regra de 3</b></span></a></button>
-        <button class="button3"><a href="Contatos.html"><span><b>Triângulo Equilátero</b></a></span></button>
-        <button class="button4"><a href="Contatos.html"><span><b>Trapézio</b></a></span></button>
-        <button class="button5"><a href="Contatos.html"><span><b>Retângulo</b></a></span></button>
-        <button class="button6"><a href="Contatos.html"><span><b>Quadrado</b></a></span></button>
+        <button class="button1" ><a href="#"><span><b>Calculadora</b></span></a></button>
+        <button class="button2"><a href="#" onclick="openimc()"><span><b>IMC</b></span></a></button>
+        <button class="button3"><a href="#"><span><b>Triângulo Equilátero</b></a></span></button>
+        <button class="button4"><a href="#"><span><b>Trapézio</b></a></span></button>
+        <button class="button5"><a href="#"><span><b>Retângulo</b></a></span></button>
+        <button class="button6"><a href="#"><span><b>Quadrado</b></a></span></button>
 
     </p>
 
-    <div class="container_IMC">
+    <div class="container_IMC" id="containerIMC">
         <h4 class="title">IMC</h4>
         <form name="" onclick="imc()">
             <input type="number" class="input1" id="altura" size="12" maxlength="3" placeholder="Altura em cm"><br><br>
@@ -43,7 +44,7 @@
         </form>
     </div>
 
-    <div class="container_triequi">
+    <div class="container_triequi" id="containertriequi">
         <h4 class="title">Área do Triângulo Equilátero</h4>
         <form name="" onclick="areatriequilátero()">
             <input type="number" class="input3" id="ate" size="12" maxlength="150" placeholder="Lado"><br>
@@ -53,7 +54,7 @@
         </form>
     </div>
 
-    <div class="container_trapezio">
+    <div class="container_trapezio" id="containertrapezio">
         <h4 class="title">Área do Trapézio</h4>
         <form onclick="areatrapezio()">
             <input type="number" class="input4" id="atmenor" size="12" maxlength="150" placeholder="Base menor"><br><br>
@@ -67,7 +68,7 @@
         </form>
     </div>
 
-    <div class="container_retangulo">
+    <div class="container_retangulo" id="containerretangulo"> 
         <h4 class="title">Área do Retângulo</h4>
         <form onclick="arearetangulo()">
             <input type="number" class="input7" id="arbase" size="12" maxlength="150" placeholder="Base"><br><br>
@@ -79,7 +80,7 @@
         </form>
     </div>
 
-    <div class="container_quadrado">
+    <div class="container_quadrado" id="containerquadrado">
         <h4 class="title">Área do Quadrado</h4>
         <form onclick="areaquadrado()">
             <input type="number" class="input9" id="lado" size="12" maxlength="150" placeholder="Lado"><br><br>
@@ -89,7 +90,7 @@
         </form>
     </div>
 
-    <div class="calculadora">
+    <div class="calculadora" id="calculador">
         <h1>Calculadora</h1>
         <p id="resultado"></p>
         <table>
@@ -97,7 +98,7 @@
                 <td><button class="botao" onclick="clean()">C</button></td>
                 <td><button class="botao" onclick="back()">AC</button></td>
                 <td><button class="botao" onclick="insert('/')">/</button></td>
-                <td><button class="botao" onclick="insert('*X-UA-Compatible')">X</button></td>
+                <td><button class="botao" onclick="insert('*')">X</button></td>
             </tr>
             <tr>
                 <td><button class="botao" onclick="insert('7')">7</button></td>

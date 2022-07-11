@@ -4,7 +4,7 @@ header {
 
 img {
     width: 200px;
-    margin-left: 600px;
+    margin-left: 45%;
 }
 
 .p2 {
@@ -13,6 +13,7 @@ img {
     font-size: 20px;
     padding: 20px;
     font-family: Verdana;
+    text-align: center;
 }
 
 .button1 {
