@@ -5,5 +5,7 @@ function areatrapezio() {
 
     var caltrap = (basemaior + basemenor) ** alturatrap/2
 
-    nomedadiv.innerHTML= `${caltrap} o que quer que apareça na tela`
+    var total3 = caltrap.toFixed(2);
+
+    document.getElementById('texto3').innerHTML = total3
 }

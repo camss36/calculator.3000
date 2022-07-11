@@ -4,5 +4,7 @@ function arearetangulo() {
 
     var calret = baseret ** alturaret;
 
-    texto4.innerHTML= `${calret} o que quer que apareça na tela`
+    var total4 = calret.toFixed(2);
+
+    document.getElementById('texto4').innerHTML = total4
 }

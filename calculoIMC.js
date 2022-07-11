@@ -3,23 +3,27 @@ function imc() {
     var peso = document.getElementById("peso").value
 
     var calimc= peso/(altura ** 2);
+    var total1= calimc.toFixed(2);
+
     if (calimc<18.5) {
-        texto1.innerHTML= `${calimc} Você está classificado com magreza`
+        texto1.innerHTML= `${total1} Você está classificado com magreza`
     }
 
     else if (calimc < 24.9) {
-        texto1.innerHTML= `${calimc}Você está com o peso normal`
+        texto1.innerHTML= `${total1}Você está com o peso normal`
     }
 
     else if (calimc < 29,9) {
-        texto1.innerHTML= `${calimc} Você está com Sobrepeso`
+        texto1.innerHTML= `${total1} Você está com Sobrepeso`
     }
 
     else if (calimc < 34,9) {
-        texto1.innerHTML= `${calimc} Você está Obeso`
+        texto1.innerHTML= `${total1} Você está Obeso`
     }
 
     else if (calimc < 40) {
-        texto1.innerHTML= `${calimc} Você está com Obesidade Morbida`
+        texto1.innerHTML= `${total1} Você está com Obesidade Morbida`
     }
+
+    
 }
