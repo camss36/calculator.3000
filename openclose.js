@@ -24,3 +24,8 @@ function closeimc() {
      }
 
 }
+
+function abreefecha() {
+   closeimc();
+   openimc();
+}
