@@ -110,7 +110,7 @@
     padding: 50px;
     height: 210px;
     width: 130px;
-    background-color: #3366ff;
+    background-color: #0E02E6;
     text-align: center;
     margin-top: 80px;
     font-family: Arial, Helvetica, sans-serif;
@@ -127,7 +127,7 @@
     padding: 50px;
     height: 180px;
     width: 130px;
-    background-color: #3366ff;
+    background-color: #0E02E6;
     text-align: center;
     margin-top: 80px;
     font-family: Arial, Helvetica, sans-serif;
@@ -144,7 +144,7 @@
     padding: 50px;
     height: 200px;
     width: 130px;
-    background-color: #3366ff;
+    background-color: #0E02E6;
     text-align: center;
     margin-top: 80px;
     font-family: Arial, Helvetica, sans-serif;
@@ -161,7 +161,7 @@
     padding: 50px;
     height: 200px;
     width: 130px;
-    background-color: #3366ff;
+    background-color: #0E02E6;
     text-align: center;
     margin-top: 80px;
     font-family: Arial, Helvetica, sans-serif;
@@ -178,7 +178,7 @@
     padding: 50px;
     height: 150px;
     width: 130px;
-    background-color: #3366ff;
+    background-color: #0E02E6;
     text-align: center;
     margin-top: 80px;
     font-family: Arial, Helvetica, sans-serif;
@@ -241,3 +241,4 @@
 #containerquadrado{
     display: none;
 }
+
