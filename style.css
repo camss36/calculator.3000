@@ -306,6 +306,7 @@ a {
 body{
     background-image: linear-gradient(45deg, black, rgb(53, 53, 53), gray, white);
     background-size: 100%;
+    background-attachment: fixed;
 }
 
 
