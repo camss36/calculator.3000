@@ -1,6 +1,6 @@
 function arearetangulo() {
-    var baseret = document.getElementById("arbase").value
-    var alturaret = document.getElementById("araltura").value
+    var baseret = document.getElementById("arbase").value/100
+    var alturaret = document.getElementById("araltura").value/100
 
     var calret = baseret * alturaret;
 

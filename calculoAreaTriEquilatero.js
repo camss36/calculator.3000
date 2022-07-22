@@ -1,5 +1,5 @@
 function areatriequilátero() {
-    var ladoequi = document.getElementById("ate").value
+    var ladoequi = document.getElementById("ate").value/100
 
     var calequi = ((ladoequi * ladoequi) * 1.73) /4;
 

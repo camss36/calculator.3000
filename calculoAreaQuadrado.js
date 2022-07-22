@@ -1,5 +1,5 @@
 function areaquadrado() {
-    var lado1 = document.getElementById("lado").value
+    var lado1 = document.getElementById("lado").value/100
 
     var calarea = lado1 * lado1
 
